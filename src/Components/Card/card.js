@@ -5,7 +5,7 @@ function Cards(){
     const Card = Data({useState})
 
     return(
-        <div>{Data.image}</div>
+        <div>{Card === Data.image}</div>
     )
     
 }
